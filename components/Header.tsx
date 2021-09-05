@@ -2,6 +2,7 @@ import RightCorner from "./RightCorner";
 import LeftCorner from "./LeftCorner";
 import { useContext } from "react";
 import { GlobalContext } from "../store/globalContext";
+import LilDude from "./LilDude";
 
 export default function Header() {
   const {

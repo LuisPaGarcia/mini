@@ -1,6 +1,6 @@
 import * as React from "react";
 import { TagsType } from "../components/Corner";
-
+import config from "./config";
 interface GlobalContextMenuType {
   left: TagsType[];
   right: TagsType[];
@@ -14,17 +14,7 @@ interface GlobalContextType {
   config: GlobalContextConfigType;
 }
 
-const globalContext: GlobalContextType = {
-  config: {
-    menu: {
-      left: [
-        { text: "luispa garcia", href: "/" },
-        { text: "about", href: "/about" },
-      ],
-      right: [{ text: "blog", href: "/blog" }],
-    },
-  },
-};
+const globalContext: GlobalContextType = config;
 
 const GlobalContext = React.createContext(globalContext);
 

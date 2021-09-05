@@ -11,6 +11,10 @@ function MyApp({ Component, pageProps }) {
           name="Description"
           content="A Next.js starter styled using Tailwind CSS."
         />
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1"
+        ></meta>
       </Head>
 
       <Component {...pageProps} />
