@@ -1,11 +1,8 @@
 import Img from "next/image";
-import LilDude from "./LilDude";
 export default function Container() {
   return (
     <section className="flex flex-wrap justify-center">
       <div className="w-1/2 pb-2 p-4">
-        <LilDude />
-
         <Img
           src="https://cdn.shopify.com/s/files/1/0068/5015/0457/t/4/assets/jackboys-album-cover-700.jpg"
           width="700"

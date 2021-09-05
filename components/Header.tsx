@@ -14,6 +14,7 @@ export default function Header() {
   return (
     <header>
       <LeftCorner tags={left} />
+      <LilDude />
       <RightCorner tags={right} />
     </header>
   );
